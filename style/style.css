@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    background-image: url(../imgs/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+.headercontainer{
+    width: 594px;
+    height: 70px;
+    margin-top: 50px;
+    margin-left: 638px;
+    display: flex;
+    justify-content: space-between;
+}
+.headercontainer .box{
+    width: 228px;
+    height: 70px;
+    background-color: #C4C4C4;
+    text-align: center;
+    border-radius: 0 35px 0 35px;
+}
+.headercontainer .box2{
+    width: 126px;
+}
+.headercontainer .box3{
+    width: 70px;
+}
+.headercontainer p{
+    color: #000000;
+    font-size: 18px;
+    padding-top: 24px;
+}
+.headercontainer .box:hover{
+    background-color: #79B331;
+}
+.active .box{
+    background-color: #79B331;
+}
+
+.animatedcontainer{
+    width: 422px;
+    height: 188px;
+    margin-top: 94px;
+    margin-left: 806px;
+    text-align: center;
+}
+.mwvanewre{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #79B331;
+    position: relative;
+    animation: mwvanewreanimation 4s infinite;
+}
+@keyframes mwvanewreanimation {
+    0%{top:0;left: 0;}
+    25%{top:0;left: 390px;}
+    50%{top:156px;left: 390px;}
+    75%{top:156px;left: 0;}
+    100%{top:0;left: 0;}
+}
+.animatedcontainer p{
+    font-size: 18px;
+    color: #000000;
+    margin-top: 20px;
+}
+.timer{
+    font-size: 36px;
+    color: #000000;
+    margin-top: 22px;
+}
+.treecontainer{
+    width: 1062px;
+    height: 500px;
+    margin-top: 300px;
+    margin-left: 338px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.toti{
+    width: 2px;
+    height: 430px;
+    background-color: #C4C4C4;
+    margin-top: 70px;
+    position: absolute;
+    /* top: 70px; */
+    left: 50%;
+}
+.vegantext{
+    width: 531px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.vegantext p{
+    width: 420px;
+    height: 48px;
+    margin-top: 12px;
+    font-size: 18px;
+    color: #C4C4C4;
+}
+.fotoli{
+    width: 70px;
+    height: 70px;
+    border-radius: 0 35px 0 35px;
+    background-color: #C4C4C4;
+}
+.vegantext:hover .fotoli{
+    background-color: #79B331;
+    cursor: pointer;
+}
+.vegantext:hover p{
+    color: #79B331;
+    cursor: pointer;
+}
+.meore{
+    margin-top: 114px;
+}
+.mesame{
+    margin-bottom: 212px;
+}
+.mesame p{
+    width: 80%;
+}
+.meotxe{
+    margin-top: 141px;
+}
+.rotated{
+    transform: rotate(90deg);
+}
+
